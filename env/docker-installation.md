@@ -41,7 +41,7 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-### 3.3.2. sudo없이 사용하기
+### 3.3.2. Non-Root 유저로 사용하기
 ```
 sudo usermod -aG docker $USER
 ```
